@@ -1,0 +1,18 @@
+name: FirstPlugin
+version: 1.0
+author: Berra
+main: FirstPlugin
+website: http://www.swecraft.net/
+commands:
+  test:
+    description: The one and only command
+    usage: /test
+    aliases: [test2,test3]
+  diamonds:
+    description: Second command
+    usage: /diamonds
+    aliases: [dia,dia2]
+  elytra:
+    description: Ger ut en elytra!
+    usage: /elytra
+    aliases: [elytran,elytris]
