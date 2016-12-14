@@ -18,6 +18,7 @@ public class CommandTest implements CommandExecutor{
 
         if (sender instanceof Player) {
             Player player = (Player) sender;
+			sender.sendMessage("Du körde kommandot /test eller ett alias!");
             // Here we give items to player
 
             ItemStack diamonds = new ItemStack(Material.DIAMOND, 5);
